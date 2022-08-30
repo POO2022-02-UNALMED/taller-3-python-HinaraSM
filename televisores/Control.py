@@ -1,4 +1,3 @@
-#HOLA
 class Control:
     def __init__(self):
         self.tv = None
@@ -33,5 +32,7 @@ class Control:
     def enlazar(self,tv):
         self.tv = tv
         tv.setControl(self)
+            
+    
             
     
