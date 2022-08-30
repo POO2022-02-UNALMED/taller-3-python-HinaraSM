@@ -32,14 +32,14 @@ class TV:
         return self._volumen
     
     def setVolumen(self, volumen):
-        if(volumen>=0 and volumen<=7 and self.estado == True):
+        if(volumen>=0 and volumen<=7 and self._estado == True):
             self._volumen=volumen
         
     def getCanal(self):
         return self._canal
 
     def setCanal(self, canal):
-        if(canal>=1 and canal<=120 and self.estado == True ):
+        if(canal>=1 and canal<=120 and self._estado == True ):
             self._canal=canal
     
     def turnOn(self):
